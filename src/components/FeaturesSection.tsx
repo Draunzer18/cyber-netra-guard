@@ -13,37 +13,37 @@ export const FeaturesSection: React.FC = () => {
   const features = [
     {
       title: "AI Decoy Network",
-      description: "Deploy intelligent honeypots that learn and adapt to sophisticated attack patterns in real-time.",
+      description: "Deploy intelligent honeypots that learn and adapt to sophisticated attack patterns in real-time. Our AI-powered decoys mimic legitimate systems while gathering crucial intelligence about attacker methodologies, helping build stronger defenses against emerging threats.",
       icon: Network,
       link: "/decoy-network" // TODO: Add your feature link here
     },
     {
       title: "Behavioral Pattern Engine",
-      description: "Advanced AI analyzes attacker behavior to predict and prevent future honeytrap attempts.",
+      description: "Advanced machine learning algorithms analyze attacker behavior to predict and prevent future honeytrap attempts. By understanding attack patterns, timing, and techniques, Netra can proactively defend against threats before they fully materialize.",
       icon: Brain,
       link: "/behavior-analysis" // TODO: Add your feature link here
     },
     {
       title: "Real-time Threat Detection",
-      description: "Continuous monitoring with instant alerts when suspicious activities are detected.",
+      description: "Continuous monitoring with instant alerts when suspicious activities are detected across your network. Our sophisticated detection systems operate 24/7, providing immediate notifications and detailed threat intelligence to keep your organization secure.",
       icon: Eye,
       link: "/threat-detection" // TODO: Add your feature link here
     },
     {
       title: "Privacy Shield",
-      description: "Zero-knowledge architecture ensures your data remains private while providing maximum protection.",
+      description: "Zero-knowledge architecture ensures your sensitive data remains completely private while providing maximum protection. All threat analysis happens locally with encrypted communication, ensuring your business intelligence never leaves your control.",
       icon: Lock,
       link: "/privacy-shield" // TODO: Add your feature link here
     },
     {
       title: "Community Intelligence",
-      description: "Crowdsourced threat intelligence that grows stronger with every community contribution.",
+      description: "Crowdsourced threat intelligence network that grows stronger with every community contribution. Share anonymized threat data to help the entire cybersecurity community stay ahead of evolving attack vectors and emerging threat landscapes.",
       icon: Shield,
       link: "/community-intel" // TODO: Add your feature link here
     },
     {
       title: "Rapid Response System",
-      description: "Automated countermeasures that deploy instantly when threats are identified.",
+      description: "Automated countermeasures that deploy instantly when threats are identified, minimizing potential damage. Smart response protocols adapt to threat severity and type, ensuring proportional and effective defensive measures are activated without human intervention.",
       icon: Zap,
       link: "/rapid-response" // TODO: Add your feature link here
     }
